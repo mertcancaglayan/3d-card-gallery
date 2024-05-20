@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(19, 18, 18);
+	height: 100vh;
+}
+
+.container {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.gallery {
+	display: flex;
+	gap: 0.35rem;
+}
+
+.img {
+	width: 142px;
+	height: 527px;
+    background-size: cover;
+    background-position: center;
+}
